@@ -5,7 +5,7 @@
 
 lower = int(input("Enter the lower limit :- "))
 upper = int(input("Enter the upper limit :- "))
-if lower == 1:
+if lower == 1 or lower ==0:
 	lower = 2      
 for i in range(lower,upper+1):
 	for j in range(2,i+1):
